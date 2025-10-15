@@ -27,6 +27,8 @@ body{
 
     grid-template-columns: repeat(4, 1fr) 2fr;
     grid-template-rows: repeat(6, 1fr);
+    border: 1px solid blue;
+    border-radius: 5% 5% 5% 5%;
 }
 
 #sidecontent {
@@ -39,6 +41,7 @@ body{
  width: 100%;
  height: 100%;
  filter: grayscale();
+ transition: filter 0.5s ease;
 }
 
 #ProfileImage:hover{
