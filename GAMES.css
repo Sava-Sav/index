@@ -1,0 +1,27 @@
+#html, body{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+
+}
+
+body{
+ background-color: #171717;
+}
+
+#maincontent {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    
+    grid-template-columns: 2fr ;
+    grid-template-rows: repeat(3, 2fr);
+}
+
+#sidecontent {
+      color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+}
