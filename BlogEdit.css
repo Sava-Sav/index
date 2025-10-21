@@ -14,19 +14,33 @@ body{
     margin-left: auto;
     margin-right: auto;
     display: grid;
-    
-    grid-template-columns: 2fr ;
-    grid-template-rows: repeat(3, 2fr);
 }
 
-#title {
-  
+#text {
+ font-size: large;
+}
+
+#links a {
+   color:white;
+    text-decoration: underline green ;
+    
+    transition: color 0.5s ease;
+}
+
+#links a:hover {
+    color: darkgreen;
+}
+
+#title{
+  font-size: xx-large;
 }
 
 #sidecontent {
+    font-size: large;
       color: white;
     margin-left: auto;
     margin-right: auto;
     display: grid;
+
 }
 
