@@ -1,0 +1,41 @@
+#html, body{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+
+}
+#title{
+  font-size: xx-large;
+}
+body{
+ background-color: #171717;
+}
+
+#maincontent {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    
+}
+
+#sidecontent {
+  font-size: large;
+      color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+        grid-template-columns: 3fr ;
+    grid-template-rows: repeat(3, 3fr);
+}
+
+#links a {
+   color:white;
+    text-decoration: underline green ;
+    
+    transition: color 0.5s ease;
+}
+
+#links a:hover {
+    color: darkgreen;
+}
