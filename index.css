@@ -29,11 +29,30 @@ body{
 
 }
 
-#maincontent::before,
 #maincontent::after{
+    opacity: 0;
+    content:"";
+    position:absolute;
 
+    width: 50%;
+    height: 60%;
+    
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
 
-   box-sizing: border-box;
+    background: radial-gradient(
+    ellipse at center,
+    rgba(100, 100, 100, 0.8),
+    rgba(100, 100, 100, 0.6),
+    rgba(100, 100, 100, 0.4));
+    filter: blur(70px);
+    
+    z-index: -1;
+}
+
+#maincontent:hover::after{
+opacity: 1;
 }
 
 #ProfileImage {
@@ -43,7 +62,7 @@ body{
 }
 
 #ProfileImage{
-
+ 
  width: 100%;
  height: 100%;
  margin: -1.5px;
@@ -121,14 +140,16 @@ body{
     
 }
 
+#navigation li:hover{
+    color: cyan;
+}
+
 #navigation a{
     color:white;
     text-decoration: none;
 }
 
-#navigation li:hover{
-    color: cyan;
-}
+
 #navigation a:hover {
     color: cyan;
 }
