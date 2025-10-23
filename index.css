@@ -10,12 +10,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-#title {
-      justify-content: center;
-    color: green;
     
 }
+
 
 #maincontent {
     color: white;
@@ -27,7 +24,7 @@ body{
 
     grid-template-columns: repeat(4, 1fr) 2fr;
     grid-template-rows: repeat(6, 1fr);
-    border: 2px solid black;
+    border: 5px solid black;
     border-radius: 2%;
 
 }
@@ -52,7 +49,7 @@ body{
  margin: -1.5px;
  filter: grayscale();
  transition: filter 0.5s ease;
-     border: 2px solid black;
+     border: 5px solid black;
     border-radius: 5% 0 0 0;
 }
 
@@ -105,17 +102,26 @@ body{
 
 
 #navigation li {
+    color:white;
     flex: 1;
     align-items: center;
     justify-content: center;
     display: flex;
     font-family: roboto;
+    
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.5s ease;
 
     border: 5px solid black;
     margin: -2.5px;
     border-radius: 5%;
 
     
+}
+
+#navigation li:hover {
+    color: cyan;
 }
 
 #navigation li:first-child{
@@ -130,16 +136,6 @@ body{
      border-radius: 0 0 5% 0;
 }
 
-
-#navigation a {
-    text-decoration: none;
-    color: inherit;
-    transition: color 0.5s ease;
-}
-
-#navigation a:hover {
-    color: cyan;
-}
 
 
 #social-media{
@@ -166,6 +162,10 @@ body{
     
     background-color: #171717;
     border: 5px solid black;
+}
+
+#social-media-btn:hover{
+  filter:color darkgreen;
 }
 
 #social-media .social-media-btn:first-child{
