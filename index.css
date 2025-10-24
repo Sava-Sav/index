@@ -17,7 +17,7 @@ body{
 #maincontent {
     color: white;
      width: 24rem;
-    height: 16rem;
+    height: 14rem;
     margin-left: auto;
     margin-right: auto;
     display: grid;
@@ -39,7 +39,7 @@ body{
     position:absolute;
 
     width: 32rem;
-    height: 20rem;
+    height: 16rem;
     
     top:50%;
     left:50%;
@@ -81,6 +81,7 @@ opacity: 1;
  transition: filter 0.5s ease;
      border: 5px solid black;
     border-radius: 5% 0 0 0;
+    
 }
 
 #ProfileImage:hover{
@@ -139,6 +140,7 @@ opacity: 1;
     display: flex;
     font-family: roboto;
     
+    font-size: 1.05em;
     text-decoration: none;
     color: inherit;
     transition: color 0.5s ease;
@@ -208,3 +210,30 @@ opacity: 1;
     border-radius: 0 0 0 5%;
 }    
 
+
+@media(max-width: 480px)
+{
+
+#maincontent{
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(12, 1fr)
+}
+
+#ProfileImage{
+  grid-row-start: 1;
+  grid-row-end: 5;
+  grid-row: span 1;
+}
+
+#social-media{
+ grid-row-start: 6;
+ grid-row-end: 6;
+}
+
+#navigation{ 
+    
+    grid-row-start:  7;
+    grid-row-end: 12;
+    grid-column: span 4;
+}
+}
