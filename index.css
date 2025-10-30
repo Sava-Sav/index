@@ -1,7 +1,12 @@
 
 :root{
+    
     --button-bg-color: #171717;
     --border-radius: 0.375em;
+    --blob-width: 32rem;
+    --blob-height: 16rem;
+    --maincontent-width: 24rem;
+    --maincontent-height: 14rem;
 }
 
 
@@ -14,7 +19,7 @@
 }
 
 body{
- background-color: #171717;
+ background-color: var(--button-bg-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,8 +29,8 @@ body{
 
 #maincontent {
     color: white;
-     width: 24rem;
-    height: 14rem;
+    width: var(--maincontent-width);
+    height: var(--maincontent-height);
     margin-left: auto;
     margin-right: auto;
     display: grid;
@@ -39,6 +44,7 @@ body{
     border-radius: 2%;
 
 }
+
 
 #maincontent::after{
     opacity: 0;
@@ -88,7 +94,9 @@ opacity: 1;
  filter: grayscale();
  transition: filter 0.5s ease;
      border: 5px solid black;
-    border-radius: 5% 0 0 0;
+    border-radius: var(--border-radius) 0 0 0;
+
+    overflow: hidden;
     
 }
 
@@ -224,8 +232,22 @@ opacity: 1;
 
 #maincontent{
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(12, 1fr)
+  grid-template-rows: repeat(12, 1fr);
+
+  width: var(--maincontent-height);
+  height: var(--maincontent-width);
 }
+
+#maincontent::before{
+    width: var(--blob-height);
+    height: var(--blob-width);
+}
+
+#maincontent::after{
+    width: var(--blob-width);
+    height: var(--blob-height);
+}
+
 
 #ProfileImage{
   grid-row-start: 1;
