@@ -93,7 +93,7 @@ opacity: 1;
  margin: -1.5px;
  filter: grayscale();
  transition: filter 0.5s ease;
-     border: 5px solid black;
+     border: 1px solid black;
     border-radius: var(--border-radius) 0 0 0;
 
     overflow: hidden;
