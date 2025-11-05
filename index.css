@@ -42,7 +42,7 @@ body{
     grid-template-rows: repeat(6, 1fr);
     border: 8px solid black;
     border-radius: 2%;
-    animation: bounceOut 0.4s ease-in;
+
 }
 
 
@@ -132,8 +132,8 @@ opacity: 1;
     display: grid;
     text-align: center;
     align-items: center;
-    
-
+    animation-delay: 0.4s;
+    animation: fadein 0.6s ease;
 }
 
 #navigation ul {
@@ -239,6 +239,16 @@ opacity: 1;
 
     100% {
         transform: scale(1);
+    }
+}
+
+@keyframes fadein {
+    0%{
+        opacity: 0%;
+    }
+
+    100%{
+        opacity: 100%;
     }
 }
 
