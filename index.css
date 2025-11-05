@@ -42,7 +42,7 @@ body{
     grid-template-rows: repeat(6, 1fr);
     border: 8px solid black;
     border-radius: 2%;
-
+    animation: bounceOut 0.4s ease-in;
 }
 
 
@@ -97,6 +97,8 @@ opacity: 1;
     border-radius: var(--border-radius) 0 0 0;
 
     overflow: hidden;
+    animation: bounceOut 0.4s ease;
+    
     
 }
 
@@ -226,6 +228,21 @@ opacity: 1;
     border-radius: 0 0 0 5%;
 }    
 
+@keyframes bounceOut {
+    0% {
+        transform: scale(0.25);
+    }
+
+    65% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
 
 @media(max-width: 480px)
 {
@@ -253,6 +270,7 @@ opacity: 1;
   grid-row-start: 1;
   grid-row-end: 5;
   grid-row: span 1;
+  
 }
 
 #social-media{
