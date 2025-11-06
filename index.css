@@ -233,7 +233,28 @@ opacity: 1;
 
 #social-media .social-media-btn:first-child{
     border-radius: 0 0 0 5%;
+    animation: fadeInSideways 0.6s ease;
+    animation-delay: 0.4s;
 }    
+
+#social-media .social-media-btn:nth-of-type(2){
+    border-radius: 0 0 0 5%;
+    animation: fadeInSideways 0.6s ease;
+    animation-delay: 0.45s;
+}    
+
+#social-media .social-media-btn:nth-of-type(3){
+    border-radius: 0 0 0 5%;
+    animation: fadeInSideways 0.6s ease;
+    animation-delay: 0.5s;
+}    
+
+#social-media .social-media-btn:nth-of-type(4){
+    border-radius: 0 0 0 5%;
+    animation: fadeInSideways 0.6s ease;
+    animation-delay: 0.55s;
+}    
+
 
 @keyframes bounceOut {
     0% {
@@ -258,6 +279,18 @@ opacity: 1;
     to {
         opacity: 100%;
         transform: translateX (0);
+    }
+}
+
+@keyframes fadeInSideways{
+    from{
+        opacity: 0%;
+        transform: translateY(-50%);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateY(0%);
     }
 }
 
