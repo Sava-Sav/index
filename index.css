@@ -224,6 +224,11 @@ opacity: 1;
 
     background-color: #171717;
     border: 3px solid black;
+    
+}
+
+#social-media-btn button{
+        color: green;
 
 }
 
