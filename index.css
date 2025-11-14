@@ -175,7 +175,7 @@ opacity: 1;
 }
 
 #navigation a{
-    color:white;
+    color:inherit;
     text-decoration: none;
 }
 
