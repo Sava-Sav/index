@@ -228,6 +228,10 @@ opacity: 1;
     border: 3px solid black;
 }
 
+.social-media-btn a{ 
+    color: inherit;
+}
+
 .social-media-btn:hover{
   color: lightgreen;
 }
