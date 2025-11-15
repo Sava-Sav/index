@@ -28,6 +28,9 @@ body{
    background-color: black;
    text-decoration-color: green;
    color: green;
+   padding:10px;
+   border-radius: 3px ;
+   border-color: silver;
 }
 
 #yourEmail{
@@ -36,12 +39,31 @@ body{
    background-color: black;
    text-decoration-color: green;
    color: green;
+    padding:10px;
+   border-radius: 3px ;
+   border-color: silver;
 }
 
 #yourText{
-   text-align: center;
+   text-align: start;
    size-adjust: inherit;
    background-color: black;
+   text-decoration-color: green;
+   color: green;
+   display: inline-block;
+    width: 150px;
+    padding-inline-start: 150px;
+    padding:150px;
+   border-radius: 3px ;
+   border-color: silver;
+}
+
+#send{
+       text-align: center;
+   size-adjust: inherit;
+    padding: 10px;
+    padding-inline: 90px;
+background-color: black;
    text-decoration-color: green;
    color: green;
 }
