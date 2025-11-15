@@ -1,3 +1,47 @@
 body{
-    background-color: darkgreen;
+    background-color: rgb(0, 31, 0);
+       color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+#wholeIdea{
+    text-align: center;
+}
+#bigText{
+    font-size: xxx-large;
+
+  
+}
+
+#smallText{
+    font-size: xx-large;
+
+    opacity: 60%;
+}
+
+#yourName{
+   text-align: center;
+   size-adjust: inherit;
+   background-color: black;
+   text-decoration-color: green;
+   color: green;
+}
+
+#yourEmail{
+   text-align: center;
+   size-adjust: inherit;
+   background-color: black;
+   text-decoration-color: green;
+   color: green;
+}
+
+#yourText{
+   text-align: center;
+   size-adjust: inherit;
+   background-color: black;
+   text-decoration-color: green;
+   color: green;
 }
