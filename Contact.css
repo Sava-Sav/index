@@ -47,8 +47,7 @@ body{
 }
 
 #yourText{
-   text-align: start;
-   size-adjust: inherit;
+   text-align:center;
    background-color: black;
    text-decoration-color: white;
    color: white;
