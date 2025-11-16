@@ -26,9 +26,10 @@ body{
    text-align: center;
    size-adjust: inherit;
    background-color: black;
-   text-decoration-color: green;
-   color: green;
+   text-decoration-color: white;
+   color: white;
    padding:10px;
+   padding-inline: 50px;
    border-radius: 3px ;
    border-color: silver;
 }
@@ -37,9 +38,10 @@ body{
    text-align: center;
    size-adjust: inherit;
    background-color: black;
-   text-decoration-color: green;
-   color: green;
+   text-decoration-color: white;
+   color: white;
     padding:10px;
+    padding-inline: 50px;
    border-radius: 3px ;
    border-color: silver;
 }
@@ -48,8 +50,8 @@ body{
    text-align: start;
    size-adjust: inherit;
    background-color: black;
-   text-decoration-color: green;
-   color: green;
+   text-decoration-color: white;
+   color: white;
    display: inline-block;
     width: 150px;
     padding-inline-start: 150px;
@@ -63,7 +65,22 @@ body{
    size-adjust: inherit;
     padding: 10px;
     padding-inline: 90px;
-background-color: black;
-   text-decoration-color: green;
-   color: green;
+    background-color: black;
+   text-decoration-color: white;
+   color: white;
+   border-radius: 3px ;
+   border-color: silver;
+}
+
+#Return{
+       color:white;
+    text-decoration: underline Silver ;
+    
+    transition: color 0.5s ease;
+}
+
+#Return:hover{
+ 
+    color: darkgrey;
+
 }
