@@ -47,16 +47,17 @@ body{
 }
 
 #yourText{
-   text-align:center;
-   background-color: black;
-   text-decoration-color: white;
-   color: white;
-   display: inline-block;
-    width: 150px;
-    padding-inline-start: 150px;
-    padding:150px;
-   border-radius: 3px ;
-   border-color: silver;
+    text-align: left;    
+    background-color: black;
+    color: white;
+    display: inline-block;
+    width: 400px;
+    height:200px;
+    padding: 5px;      
+    border-radius: 3px;
+    border: 1px solid silver;
+    text-indent: 0;
+    
 }
 
 #send{
